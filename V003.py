@@ -1,6 +1,6 @@
 print ("Esto es una instrucción")
 
-print ("A Python no le importa el uso del punto y coma");
+print ("A Python no le importa el uso del punto y coma")
 
 # Esto es un comentario de Python
 
