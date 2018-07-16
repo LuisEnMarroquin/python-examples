@@ -19,7 +19,12 @@ for i in miEmail:
     if i == '@' or i == '.':
         contador = contador + 1
 
-if email: # if email == True:
-    print('El email es correcto') # Porque tiene una '@'
+if contador == 2:
+    print('El email es correcto')
 else:
     print('El email es incorrecto')
+
+# Tipo Range
+
+for i in range(5):
+    print(i)
