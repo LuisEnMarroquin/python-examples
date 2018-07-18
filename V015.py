@@ -26,5 +26,5 @@ else:
 
 # Tipo Range
 
-for i in range(5):
+for i in range(5): # Imprimira números del 0 al 4
     print(i)
