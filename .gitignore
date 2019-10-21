@@ -1,0 +1,33 @@
+# Folders
+/dist
+/public
+/node_modules
+
+# File managers
+.DS_Store
+.directory
+desktop.ini
+
+# Logs
+logs
+*.log
+.thumbs.db
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Office temporal files
+~$*
+
+# npm lockfile
+package-lock.json
+
+# Python files without UI
+*.pyw
+
+# ico file is heavy
+*.ico
+
+# VS Code
+.vscode/launch.json

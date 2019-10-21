@@ -8,5 +8,7 @@
     "**/.DS_Store": true,
     "**/.directory": true,
     "**/desktop.ini": true
-  }
+  },
+  "python.linting.pylintEnabled": true,
+  "python.pythonPath": "E:\\DesktopApps\\Python3\\python.exe"
 }
