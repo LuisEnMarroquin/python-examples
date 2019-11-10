@@ -2,14 +2,14 @@
   "name": "snake",
   "license": "ISC",
   "version": "1.0.0",
-  "main": "index.py",
+  "main": "__init__.py",
   "author": "LuisEnMarroquin",
   "description": "Snake game with python",
   "homepage": "https://gitlab.com/LuisEnMarroquin/snake#readme",
   "scripts": {
-    "deps": "pip install -r requirements.txt",
     "lint": "pylint examples.py",
-    "start": "cp index.py index.pyw && start index.pyw"
+    "pip:update": "python -m pip install --upgrade pip",
+    "start": "cp __init__.py __init__.pyw && start __init__.pyw"
   },
   "repository": {
     "type": "git",
