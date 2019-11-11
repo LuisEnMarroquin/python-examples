@@ -1,9 +1,6 @@
 image: node:lts-stretch
 
-stages:
-  - build
-
-build:
+pages:
   artifacts:
     paths:
       - public
@@ -13,10 +10,6 @@ build:
   only:
     - master
   script:
-    - yarn install --production --ignore-optional --ignore-scripts --pure-lockfile --non-interactive
-    - node index.js
-    - mkdir public
-    - cp index.py public/index.pyw
-    - cp favicon.ico public/favicon.ico
     - python --version
-  stage: build
+    - pip install -U -r requirements.txt
+    - mv src/ public/

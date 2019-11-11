@@ -1,42 +1,16 @@
 {
-  "name": "snake",
-  "license": "ISC",
+  "name": "snake-python",
   "version": "1.0.0",
-  "main": "__init__.py",
   "author": "LuisEnMarroquin",
   "description": "Snake game with python",
-  "homepage": "https://gitlab.com/LuisEnMarroquin/snake#readme",
   "scripts": {
-    "lint": "pylint examples.py",
-    "pip:update": "python -m pip install --upgrade pip",
-    "start": "cp __init__.py __init__.pyw && start __init__.pyw"
+    "lint": "pylint src",
+    "pip:update": "python -m pip install --upgrade pip"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@gitlab.com/LuisEnMarroquin/snake.git"
-  },
-  "keywords": [
-    "snake",
-    "python",
-    "tkinter"
-  ],
-  "bugs": {
-    "url": "https://gitlab.com/LuisEnMarroquin/snake/issues"
-  },
-  "dependencies": {
-    "jimp": "^0.8.5"
+  "devDependencies": {
+    "nodemon": "^1.19.4"
   },
   "nodemonConfig": {
-    "ignore": [
-      "*.md",
-      "*.ico",
-      "*.png",
-      "*.pyw",
-      "*.yml",
-      ".git/*",
-      ".vscode/*",
-      "node_modules/*"
-    ],
     "ext": "py"
   }
 }

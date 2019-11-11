@@ -1,1 +1,4 @@
-pygame
+autopep8 # VS Code autoformatter: Alt + Shift + F
+Pillow # Convert png to ico
+pyinstaller # Create .exe
+windows-curses # Windows key actions

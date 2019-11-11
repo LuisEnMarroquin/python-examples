@@ -1,7 +1,9 @@
 # Folders
-/dist
-/public
-/node_modules
+dist/
+build/
+public/
+__pycache__/
+node_modules/
 
 # File managers
 .DS_Store
@@ -22,11 +24,12 @@ lerna-debug.log*
 
 # npm lockfile
 package-lock.json
+npm-shrinkwrap.json
 
 # Python files without UI
 *.pyw
 
-# ico file is heavy
+# ico file is big
 *.ico
 
 # VS Code
