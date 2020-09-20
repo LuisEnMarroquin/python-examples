@@ -1,0 +1,18 @@
+[MASTER]
+
+indent-string='  '
+
+disable=
+  line-too-long,
+  missing-module-docstring,
+  missing-function-docstring
+
+[BASIC]
+
+attr-naming-style=camelCase
+const-naming-style=camelCase
+method-naming-style=camelCase
+module-naming-style=camelCase
+argument-naming-style=camelCase
+function-naming-style=camelCase
+variable-naming-style=camelCase

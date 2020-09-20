@@ -8,14 +8,13 @@
 # Ventajas:
     # Las tuplas son más rapidas
     # Ocupan menos espacio en memoria
-    # Formatean Strings
     # Pueden usarse como claves en un diccionario (las listas no)
     # Si permiten comprobar si un elemento se encuentra en una tupla
 
 nombreLista = (1,2,3) # Tupla (lleva parentesis en vez de corchetes)
 nombreTupla = 1,2,3 # Tupla (puede no llevar parentesis, aunque es recomendable ponerselos)
 
-miTupla = ("Juan", 13, 1, 1995) 
+miTupla = ("Juan", 13, 1, 1995)
 print(miTupla[2]) # Imprimiendo elemento en la posición 2 de la tupla
 
 # Creando una lista apartir de una tupla
@@ -27,7 +26,7 @@ Tupla = tuple(miLista)
 print(Tupla) # Imprimiendo la tupla (se puede saber que es una tupla porque tiene parentesis)
 
 # Buscando
-lista = ("Juan", 13, 1, 1995) 
+lista = ("Juan", 13, 1, 1995)
 tupla = tuple(lista)
 print("Juan" in tupla) # Checa si "Juan" existe en "tupla" # Devuelve True o False
 print(tupla.count(13)) # Buscando cuantas veces se encuentra el '13' dentro de la tupla

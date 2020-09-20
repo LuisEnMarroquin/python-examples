@@ -1,4 +1,0 @@
-[MASTER]
-
-indent-string='  '
-disable=line-too-long,missing-module-docstring,missing-function-docstring

@@ -1,5 +1,6 @@
 {
   "editor.tabSize": 2,
+  "explorer.sortOrder": "type",
   "files.trimFinalNewlines": true,
   "files.insertFinalNewline": true,
   "editor.detectIndentation": false,
@@ -8,6 +9,5 @@
     "**/.DS_Store": true,
     "**/.directory": true,
     "**/desktop.ini": true
-  },
-  "python.linting.pylintEnabled": false
+  }
 }

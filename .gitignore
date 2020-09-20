@@ -22,10 +22,6 @@ lerna-debug.log*
 # Office temporal files
 ~$*
 
-# npm lockfile
-package-lock.json
-npm-shrinkwrap.json
-
 # Python files without UI
 *.pyw
 
