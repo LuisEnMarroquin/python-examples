@@ -3,16 +3,16 @@
 ## CONTINUE
 
 for letra in "Python":
-    if letra == 'h':
-        continue # Salta directamente a la siguiente vuelta del bucle
-    print('Viendo la letra: ' + letra)
+  if letra == 'h':
+    continue # Salta directamente a la siguiente vuelta del bucle
+  print('Viendo la letra: ' + letra)
 
 nombre = 'Pildoras Informáticas'
 contador = 0
 for letra in nombre:
-    if letra == ' ':
-        continue # Salta directamente a la siguiente vuelta del bucle
-    contador += 1
+  if letra == ' ':
+    continue # Salta directamente a la siguiente vuelta del bucle
+  contador += 1
 print(nombre + ' tiene ' + str(contador) + ' letras.')
 
 ## PASS
@@ -26,10 +26,10 @@ print(nombre + ' tiene ' + str(contador) + ' letras.')
 ## ELSE
 
 email = input('Introduce tu email, por favor: ')
-for i in email: 
-    if i=='@':
-        arroba = True
-        break
+for i in email:
+  if i=='@':
+    arroba = True
+    break
 else: # Este else no pertenece al 'if', pertenece al 'for' # Cuando el for acabe de ejecutarse se pasará directamente al else
-    arroba = False
-print('Tiene arroba: ' + str(arroba)) 
+  arroba = False
+print('Tiene arroba: ' + str(arroba))

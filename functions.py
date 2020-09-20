@@ -1,3 +1,8 @@
+def myFunction():
+  print('Executed function')
+
+myFunction() # Calling function
+
 def additionFunction(num1, num2):
   result = num1 + num2
   return result
