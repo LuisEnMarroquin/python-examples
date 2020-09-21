@@ -1,3 +1,5 @@
+#!/bin/bash
+
 trap "exit" INT
 
 arrayPY=($(ls *.py))
