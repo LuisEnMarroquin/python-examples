@@ -6,7 +6,7 @@ distanciaEscuela = int(input("Introduce la distancia en kilómetros: "))
 numeroDeHermanos = int(input("Introduce el número de hermanos: "))
 salarioFamiliar = int(input("Introduce el salario familiar: "))
 
-if distanciaEscuela>40 and numeroDeHermanos>2 or salarioFamiliar<20000:
+if distanciaEscuela > 40 and numeroDeHermanos > 2 or salarioFamiliar < 20000:
   print("Tienes derecho a beca")
 else:
   print("No tienes derecho a beca")

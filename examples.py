@@ -31,8 +31,6 @@ Algoritmic operators: 7
 
 print(MULTILINESTRING)
 
-print("5 // 2 =", 5 // 2) # Print multiple data types
-
 # By convention multiword variables are named with underscores
 QUOTE = "Always remember you are"
 MULTI_LINE_QUOTE = ''' unique
